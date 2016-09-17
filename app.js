@@ -37,6 +37,7 @@ passport.serializeUser((fbuser, cb) => {
   console.log('looking up user ' + fbuser.id);
 
   let user = {};
+  cb(null, fbuser);
 
   /*
   db.collection('users').findOne({
