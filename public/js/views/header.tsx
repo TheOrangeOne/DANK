@@ -29,7 +29,7 @@ export default class HeaderView extends React.Component<any, any> {
       <nav className="header">
         <Link className="brand" to="/">
           <FontIcon class="fa-usd"/>
-          <span className="app-name">expenses</span>
+          <span className="app-name">dank</span>
         </Link>
         <input id="bmenu" type="checkbox" className="show"/>
         <label htmlFor="bmenu" className="burger toggle pseudo button">
